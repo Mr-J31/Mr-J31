@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <title>Responsive Personal Portfolio Website Design | CSS nippets</title>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="#" class="logo" style="--i: 1">Port<span>folio</span></a>
+      <ul>
+        <li><a href="#index.html" style="--i: 2" class="active">Home</a></li>
+        <li><a href="#about" style="--i: 3">About</a></li>
+        <li><a href="#skills" style="--i: 4">Skills</a></li>
+        <li><a href="#services" style="--i: 5">Services</a></li>
+        <li><a href="#portfolio" style="--i: 6">Portfolio</a></li>
+        <li><a href="#contact" style="--i: 7">Contact</a></li>
+      </ul>
+      <a href="CV.docx" class="cvbtn" style="--i: 8">Download CV<i class="fa fa-download" aria-hidden="true"></i></a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero-container">
+    <div class="hero-image hero-image-animation">
+      <img src="img/pro2.png" alt="Hero image">
+    </div>
+      <div class="hero-contect hero-contect-animation">
+        <h3 --i: 1>Hello, I'm</h3>
+        <h1 --i: 2>Merwais Jalili</h1>
+        <h2 --i: 3>And I'm a <span  id="typing-container" class="typing"></span></h2>
+        
+        <p --i: 4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit quos eius voluptatem nulla consequuntur, enim qui expedita cumque asperiores soluta!</p>
+
+        <div class="social-icons" --i: 5>
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <div class="hero-btn" --i: 6>
+          <a href="#" class="btn">Hire Me</a>
+          <a href="#" class="btn">Contact Me</a>
+          </div>
+      </div>
+  </section>
+
+  <section class="stats stats-animation">
+    <div class="stat">
+      <h2>10+</h2>
+      <span>Years of <br>experience</span>
+    </div>
+    <div class="stat">
+      <h2>30+</h2>
+      <span>Projects <br>completed</span>
+    </div>
+    <div class="stat">
+      <h2>50+</h2>
+      <span>Technologies <br>mastered</span>
+    </div>
+    <div class="stat">
+      <h2>100+</h2>
+      <span>Statisfied <br>client</span>
+    </div>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
